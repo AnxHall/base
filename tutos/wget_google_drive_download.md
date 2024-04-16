@@ -23,4 +23,17 @@
   ---
   
   _These instructions were inspired by the Gist and comments at https://gist.github.com/iamtekeste/3cdfd0366ebfd2c0d805_
+
+Exemplo
+
+`https://drive.usercontent.google.com/download?id=1qbFkIzSsJbV1nVwZxKj6XU1emIe9jMiN&export=download&authuser=1&confirm=t&uuid=99a9b46c-48a2-48b7-8be6-f44e7f754d3a&at=APZUnTXOkgwlUyAhr9F1VPVl3HBF:1713291661477
+
+wget -o lock.jpg --no-check-certificate -r https://drive.google.com/file/d/1qbFkIzSsJbV1nVwZxKj6XU1emIe9jMiN/view?usp=sharing
+
+
++++
+
+
+wget -o lock.jpg --no-check-certificate https://drive.usercontent.google.com/download?id=1qbFkIzSsJbV1nVwZxKj6XU1emIe9jMiN
+mv download?id=1qbFkIzSsJbV1nVwZxKj6XU1emIe9jMiN background.jpg`
   
